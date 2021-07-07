@@ -1,5 +1,5 @@
 {
-  "name": "Basic bot",
+  "name": "basic-bot",
   "version": "1.0.0",
   "description": "Chat bot",
   "main": "server.js",
