@@ -1,6 +1,6 @@
 require('dotenv').config();
 import request from 'request';
-import { BASE_URI, GRAPH_API_VERSION } from '../constants/global';
+import { BASE_URI, GRAPH_API_VERSION, SSL_URL } from '../constants/global';
 import Payloads from '../constants/payload';
 import Syntaxes from '../constants/syntax';
 
@@ -164,7 +164,7 @@ let handleSetupProfile = async (req, res) => {
       },
     ],
     whitelisted_domains: [
-      'https://basic-chatbot-f-page.herokuapp.com/', //link to your Heroku app
+      `${SSL_URL}`, //link to your Heroku app
     ],
   };
 
