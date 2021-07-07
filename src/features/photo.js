@@ -1,3 +1,4 @@
+import Payloads from '../constants/payload';
 import homeService from '../services/homeService';
 
 const handleSendPhoto = async (sender_psid) => {
@@ -8,7 +9,7 @@ const handleSendPhoto = async (sender_psid) => {
       const response = homeService.getImageTemplate(url);
       await homeService.callSendApi(sender_psid, response);
 
-      const responseQuickReply = homeService.getQuickReplyTemplate(payload);
+      const responseQuickReply = homeService.getQuickReplyTemplate(Payloads.OF_COURSE_IMAGE);
       await homeService.callSendApi(sender_psid, responseQuickReply);
 
       resolve('Done');
