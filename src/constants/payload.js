@@ -1,0 +1,8 @@
+const Payloads = {
+  GET_STARTED_PAYLOAD: 'GET_STARTED_PAYLOAD',
+  HELP: 'HELP',
+  OF_COURSE_IMAGE: 'OF_COURSE_IMAGE',
+  RANDOM_AGAIN: 'RANDOM_AGAIN',
+};
+
+export default Payloads;
