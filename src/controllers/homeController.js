@@ -163,7 +163,7 @@ let handleSetupProfile = async (req, res) => {
       },
     ],
     whitelisted_domains: [
-      'https://bulu-botm.herokuapp.com/', //link to your Heroku app
+      'https://basic-chatbot-f-page.herokuapp.com/', //link to your Heroku app
     ],
   };
 
