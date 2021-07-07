@@ -4,6 +4,7 @@ import { BASE_URI, GRAPH_API_VERSION } from '../constants/global';
 import Payloads from '../constants/payload';
 import Syntaxes from '../constants/syntax';
 
+import homeService from '../services/homeService';
 import hello from '../features/hello';
 import random from '../features/random';
 import photo from '../features/photo';
